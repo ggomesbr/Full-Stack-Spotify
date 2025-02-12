@@ -1,8 +1,8 @@
-function App() {
+import React from "react"
+import Header from "./components/Header";
 
-  return (
-    <h1>Olá, mundo!</h1>
-  )
+function App() {
+  return <Header />;
 }
 
 export default App
